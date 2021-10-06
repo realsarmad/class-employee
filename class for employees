@@ -1,0 +1,12 @@
+class employee():
+    def __init__ (self,firstname,lastname,designation,age,salary):
+        self.firstname = firstname
+        self.lastname = lastname
+        self.designation = designation
+        self.age = age
+        self.salary = salary 
+emp1=employee('Andrew','Layman','LEAD ENGINEER',41,105000)
+emp2=employee('Sophia',"Jhon",'RECEPTIONIST',28,58000)
+emp3=employee('Juan','Carlos','JANITOR',51,30000)
+emp4=employee('Ben','Cooper','SECURITY GUARD',32,40000)
+print(emp1.firstname,emp1.lastname)
